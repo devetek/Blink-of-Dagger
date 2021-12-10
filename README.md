@@ -11,6 +11,7 @@ Membangun workflows self hosted untuk dapat berjalan di atas cluster kubernetes,
 ### Limitasi
 - Proses yang terjadi di dalam workflows tidak serta merta dapat di mapping ke versi yang telah di tentukan sebelumnya di dalam sistem internal
 - Proses untuk menemukan verifikasi proses terjadi dari sisi github ke internal sistem. Sehingga jika terjadi kendala disaat melakukan pemanggilan API, dapat dipastikan proses tidak dapat dinyatakan sukses atau gagal. Harus dilakukan pengecekan manual dan mencari workflow yang berkaitan dengan versi yang stuck untuk melihat kondisi yang terjadi.
+- [Perlu Pembuktian] Proses log dapat dilakukan dengan sedikit trik. Mengirimkan nama pod ke internal sistem. Sehingga sistem dapat melakukan inspect ke dalam pod untuk melihat output proccess yang sedang berjalan
 
 ### Flow Diagram
 
