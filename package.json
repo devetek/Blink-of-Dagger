@@ -1,0 +1,16 @@
+{
+  "name": "github-action-kubernetes",
+  "version": "0.0.1",
+  "description": "Github action with kubernetes self hosted",
+  "main": "demo/dashboard.js",
+  "repository": "https://github.com/devetek/github-action-kubernetes.git",
+  "author": "Prakasa <prakasa@devetek.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node demo/dashboard.js"
+  },
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "dotenv": "^10.0.0"
+  }
+}

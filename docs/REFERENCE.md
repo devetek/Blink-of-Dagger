@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/37253068/programmatically-get-the-name-of-the-pod-that-a-container-belongs-to-in-kubernet

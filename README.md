@@ -17,3 +17,9 @@ Membangun workflows self hosted untuk dapat berjalan di atas cluster kubernetes,
 ### Flow Diagram
 
 ![Full Control](docs/images/flow-diagram-v1.png)
+
+### Demo
+See [DEMO][demo-url].
+
+<!-- Links: -->
+[demo-url]: demo/dashboard.js
